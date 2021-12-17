@@ -84,18 +84,16 @@
             <div class="row">
                 <div class="col-md-7 p-5">
                     <div class="mb-3">
-                            <h1 class="text-dark">Lorem ipsum dolor</h1>
+                            <h1 class="text-dark">タスク管理をもっと楽しく！</h1>
                     </div>
                     <div class="mb-5 text-secondary">    
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam praesentium ipsum quaerat provident! Est sapiente libero odio consequatur, maxime in.
-                        </p>                
+                        <p>Express the task with a ball</p>                
                     </div>
                     <div> 
                         <a href="{{ url('/home') }}" class="btn btn-info text-dark rounded-pill mx-2 col-6 mx-auto">
                             開始
                         </a>
-                    </div>          
+                    </div>
                 </div>
                 <div class="col-md-5 d-flex align-items-center">
                     <img src="{{ asset('img/StickyNotes.png') }}" class="img-fluid pc-only" alt="Sticky Notes">            
